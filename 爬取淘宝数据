@@ -76,7 +76,7 @@ class TaoBao:
 
         #如果有验证码，则需要下面的验证码验证，没有则注释
         #等待验证码
-        sleep(20)
+        sleep(15)
         img = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,'.code > img')))
         src=img.get_attribute("src")
 
