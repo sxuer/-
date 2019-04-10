@@ -4,8 +4,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from time import sleep
-from selenium.webdriver import ActionChains   #执行动作链，多个动作放入一个队列顺序执行
-from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 from random import randint
 
